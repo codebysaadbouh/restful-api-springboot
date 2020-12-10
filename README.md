@@ -22,5 +22,5 @@ The aim of this mini project is to understand how Springboot works and to set up
 
 ---
 
->Author : Cheikh Saad Bouh SOW
+>Author : Cheikh Saad Bouh SOW -
 >Contact : saadbouh.code@gmail.com
