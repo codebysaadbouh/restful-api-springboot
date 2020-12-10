@@ -7,7 +7,7 @@ The aim of this mini project is to understand how Springboot works and to set up
 #### Editor : Intellij IDEA
 #### Database : Mysql  
 > Create a **"user"** database, and import the file **user.sql**
-#### #in Application.propreties file 
+#### in Application.propreties file 
 ```
 #Databasse
 spring.datasource.url=jdbc:mysql://localhost:3306/user?useSSL=false&serverTimezone=UTC
