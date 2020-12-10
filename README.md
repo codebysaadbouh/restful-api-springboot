@@ -7,8 +7,15 @@ The aim of this mini project is to understand how Springboot works and to set up
 #### Editor : Intellij IDEA
 #### Database : Mysql  
 > Create a **"user"** database, and import the file **user.sql**
-
-
+#### #in Application.propreties file 
+```
+#Databasse
+spring.datasource.url=jdbc:mysql://localhost:3306/user?useSSL=false&serverTimezone=UTC
+spring.datasource.username={your-username-database}
+spring.datasource.password={your-password-database}
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
 
 #### Reference Documentation  
 * [Official Gradle documentation](https://docs.gradle.org)  
